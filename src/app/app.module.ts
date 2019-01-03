@@ -29,10 +29,7 @@ const routes = [
   { path: 'homepage', component: HomepageComponent },
   { path: '**', component: HomepageComponent },
 
-  
-];
-
-@NgModule({
+  @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
