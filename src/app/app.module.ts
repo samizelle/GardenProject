@@ -25,10 +25,11 @@ const routes = [
   { path: 'register', component: RegistrationComponent },
   { path: '**', component: RegistrationComponent },
   { path: 'login', component: LoginComponent },
-  
-];
+  { path: '**', component: LoginComponent },
+  { path: 'homepage', component: HomepageComponent },
+  { path: '**', component: HomepageComponent },
 
-@NgModule({
+  @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
