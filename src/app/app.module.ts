@@ -15,6 +15,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { AuthService } from './services/auth.service';
+import { HomepageComponent } from './homepage/homepage.component';
+import { AboutComponent } from './about/about.component';
 
 const routes = [
   { path: 'register', component: RegistrationComponent },
@@ -25,7 +27,9 @@ const routes = [
   declarations: [
     AppComponent,
     HeaderComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    HomepageComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
