@@ -1,9 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import {HttpClientModule } from '@angular/common/http';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule, Routes } from '@angular/router';
+import { FormsModule, FormBuilder, FormGroup, FormControl, Validators, ReactiveFormsModule } from '@angular/forms';
+
 import { 
   MatToolbarModule, 
   MatButtonModule,
@@ -27,13 +29,14 @@ const routes = [
 @NgModule({
   declarations: [
     AppComponent,
+    LoginComponent,
+  ],
+  imports: [
     HeaderComponent,
     RegistrationComponent,
     DisplayProductsComponent
     HomepageComponent,
     AboutComponent
-  ],
-  imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
