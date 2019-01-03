@@ -27,8 +27,10 @@ const routes = [
   { path: 'register', component: RegistrationComponent },
   { path: 'login', component: LoginComponent },
   { path: 'about', component: AboutComponent },
- 
+  { path: 'homepage', component: HomepageComponent },
+  { path: 'display-products', component: DisplayProductsComponent }
 ]
+
   @NgModule({
   declarations: [
     AppComponent,
