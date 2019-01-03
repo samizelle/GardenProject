@@ -33,3 +33,4 @@ export class RegistrationComponent implements OnInit {
       //.subscribe(() => this._authService.login(this._registerForm.value));
   }
 }
+
