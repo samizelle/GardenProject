@@ -16,6 +16,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { AuthService } from './services/auth.service';
 import { DisplayProductsComponent } from './components/display-products/display-products.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { AboutComponent } from './about/about.component';
 
 const routes = [
   { path: 'register', component: RegistrationComponent },
@@ -28,6 +30,8 @@ const routes = [
     HeaderComponent,
     RegistrationComponent,
     DisplayProductsComponent
+    HomepageComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
