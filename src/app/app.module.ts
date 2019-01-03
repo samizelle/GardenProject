@@ -28,6 +28,8 @@ const routes = [
   { path: '**', component: LoginComponent },
   { path: 'homepage', component: HomepageComponent },
   { path: '**', component: HomepageComponent },
+  { path: 'display-products', component: DisplayProductsComponent }
+]
 
   @NgModule({
   declarations: [

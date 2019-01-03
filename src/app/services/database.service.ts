@@ -13,17 +13,12 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class DatabaseService {
-  private _dbUrl = 'https://efa-gardenapp-backend.herokuapp.com/api/product'
 
   constructor(private _http: HttpClient) { }
 
-  getBooks(): Observable<Product[]> {
-    return this._http.get<Product[]>(this._dbUrl)
+  getProducts() {
+    return this._http.get('https://efa-gardenapp-backend.herokuapp.com/api/product')
   }
-
-  // makeBook(book: Product) : Observable<Product[]> {
-  //   return this._http.post<Product[]>(this._dbUrl, product, httpOptions)
-  // }
 }
 
 
