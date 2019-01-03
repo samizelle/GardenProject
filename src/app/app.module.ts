@@ -30,13 +30,13 @@ const routes = [
   declarations: [
     AppComponent,
     LoginComponent,
-  ],
-  imports: [
     HeaderComponent,
     RegistrationComponent,
-    DisplayProductsComponent
+    DisplayProductsComponent,
     HomepageComponent,
-    AboutComponent
+    AboutComponent,
+  ],
+  imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
