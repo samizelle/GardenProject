@@ -23,7 +23,9 @@ import { AboutComponent } from './about/about.component';
 
 const routes = [
   { path: 'register', component: RegistrationComponent },
-  { path: '**', component: RegistrationComponent }
+  { path: '**', component: RegistrationComponent },
+  { path: 'login', component: LoginComponent },
+  
 ];
 
 @NgModule({
