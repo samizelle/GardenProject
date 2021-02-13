@@ -4,4 +4,13 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', 'Arial', sans-serif;
+   height: 100%; 
+}
+.bg{
+    
+    background-image: url('./assets/img/photo-1534710961216-75c88202f43e.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }

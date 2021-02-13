@@ -22,12 +22,13 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { AboutComponent } from './about/about.component';
 
 const routes = [
+  { path: 'home', component: HomepageComponent },
   { path: 'register', component: RegistrationComponent },
-  { path: '**', component: RegistrationComponent },
   { path: 'login', component: LoginComponent },
-  { path: '**', component: LoginComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'homepage', component: HomepageComponent },
-  { path: '**', component: HomepageComponent },
+  { path: 'display-products', component: DisplayProductsComponent }
+]
 
   @NgModule({
   declarations: [
